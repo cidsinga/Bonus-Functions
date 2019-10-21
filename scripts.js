@@ -34,7 +34,10 @@ console.log(firstChar + dog);
 
 var array = [firstChar,dog];
 var beef = array.reverse();
-var reverse = beef.toString();
+var reversal = beef.reverse();
+var reverse = reversal.toString();
+var reverse = reverse.replace(",","");
+
 console.log(reverse);
 
 
