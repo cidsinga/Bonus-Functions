@@ -31,6 +31,14 @@ var lastChar = input.length -1;
 var dog = input.charAt(lastChar).toUpperCase();
 
 console.log(firstChar + dog);
+
+var array = [firstChar,dog];
+var beef = array.reverse();
+var reverse = beef.toString();
+console.log(reverse);
+
+
+// console.log(toString(array.reverse()));
 }
 
 stuff();
