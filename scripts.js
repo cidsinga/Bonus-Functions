@@ -37,8 +37,9 @@ var beef = array.reverse();
 var reversal = beef.reverse();
 var reverse = reversal.toString();
 var reverse = reverse.replace(",","");
+var smash = input.concat(reverse);
 
-console.log(reverse);
+console.log(smash);
 
 
 // console.log(toString(array.reverse()));
